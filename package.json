@@ -1,0 +1,14 @@
+{
+  "name": "personal-math-tutor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Персональный сайт репетитора по математике",
+  "scripts": {
+    "dev": "node scripts/server.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/server.mjs --dist",
+    "check": "node scripts/check.mjs && node scripts/dom-check.mjs",
+    "check:browser": "node scripts/browser-check.mjs"
+  }
+}

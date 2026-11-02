@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>try{if(sessionStorage.getItem('math-page-transition')==='true'&&!matchMedia('(prefers-reduced-motion: reduce)').matches&&localStorage.getItem('math-motion-paused')!=='true')document.documentElement.classList.add('page-entering')}catch{}</script>
+  <meta name="theme-color" content="#f1f1f1">
+  <meta name="description" content="Разбираем квадратное уравнение: от связи между числами до проверки обоих корней. Авторский демонстрационный материал по математике.">
+  <meta property="og:title" content="Два корня. Одна понятная идея. — Разбор математики">
+  <meta property="og:description" content="Понятный разбор уравнения x² − 5x + 6 = 0, точный график и задача для самостоятельной проверки.">
+  <meta property="og:type" content="article">
+  <title>Два корня. Одна понятная идея. — Разбор математики</title>
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="/assets/fonts/Manrope-variable.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/styles/main.css">
+  <link rel="stylesheet" href="/styles/lesson.css">
+  <script src="/assets/vendor/gsap.min.js" defer></script>
+  <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+</head>
+<body class="lesson-page">
+  <a class="skip-link" href="#main">Перейти к содержанию</a>
+  <header class="lesson-page-header">
+    <a class="lesson-page-brand" href="/" data-transition><span data-owner-name>[Имя Фамилия]</span><small>Репетитор по математике</small></a>
+    <nav aria-label="Основная навигация"><a href="/#materials" data-transition>Все разборы</a><a href="/#contact" data-transition>Обсудить занятия</a></nav>
+  </header>
+  <main id="main" class="lesson-page-main" data-lesson-detail>
+    <a class="lesson-back" href="/#materials" data-transition><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20 12H4m6-6-6 6 6 6"/></svg>Назад к разборам</a>
+    <div class="lesson-detail-intro"><h1 data-detail-title>Два корня. Одна понятная идея.</h1><p data-detail-description>Разбираем квадратное уравнение: от связи между числами до проверки обоих корней.</p></div>
+    <p class="lesson-detail-equation" data-detail-equation>x² − 5x + 6 = 0</p>
+    <p class="lesson-example-note">Авторский демонстрационный разбор. Не является официальным заданием экзамена.</p>
+    <div data-detail-body>
+      <section class="lesson-explanation" aria-labelledby="explanation-title">
+        <h2 id="explanation-title">Не угадываем. Замечаем связь.</h2>
+        <p>Нужно найти все значения x, при которых выражение x² − 5x + 6 становится нулём. Вместо формулы дискриминанта попробуем увидеть, из каких множителей оно могло получиться.</p>
+        <div class="lesson-worked-step"><span>1</span><div><h3>Ищем два связанных числа</h3><p>При раскрытии скобок (x − a)(x − b) получается x² − (a + b)x + ab. Значит, нам нужны числа a и b с суммой 5 и произведением 6.</p><p class="lesson-worked-formula">2 + 3 = 5&nbsp;&nbsp; и&nbsp;&nbsp; 2 × 3 = 6</p></div></div>
+        <div class="lesson-worked-step"><span>2</span><div><h3>Превращаем сумму в произведение</h3><p>Подставляем найденные числа. Можно раскрыть скобки обратно и убедиться, что выражение осталось тем же.</p><p class="lesson-worked-formula">x² − 5x + 6 = (x − 2)(x − 3)</p><p>Теперь исходное уравнение выглядит так:</p><p class="lesson-worked-formula">(x − 2)(x − 3) = 0</p></div></div>
+        <div class="lesson-worked-step"><span>3</span><div><h3>Находим оба корня</h3><p>Произведение равно нулю, если хотя бы один из множителей равен нулю. Поэтому либо x − 2 = 0, либо x − 3 = 0.</p><p class="lesson-worked-formula">x = 2&nbsp;&nbsp; или&nbsp;&nbsp; x = 3</p></div></div>
+        <div class="lesson-worked-step"><span>4</span><div><h3>Проверяем исходное уравнение</h3><p>Подставляем каждый корень отдельно:</p><p class="lesson-worked-formula">2² − 5 × 2 + 6 = 4 − 10 + 6 = 0</p><p class="lesson-worked-formula">3² − 5 × 3 + 6 = 9 − 15 + 6 = 0</p><p>Оба значения подходят. Других корней нет: оба возможных случая нулевого произведения уже рассмотрены.</p></div></div>
+        <figure class="lesson-detail-figure"><div data-detail-graph><svg class="math-graph" viewBox="0 0 520 390" role="img" aria-labelledby="static-graph-title static-graph-desc" xmlns="http://www.w3.org/2000/svg"><title id="static-graph-title">График y = x² − 5x + 6</title><desc id="static-graph-desc">Парабола направлена вверх. Нули: 2 и 3. Вершина: 2,5; −0,25.</desc><path d="M42 303H484M56 350V31" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M56 93 Q260 530.5 464 93" fill="none" stroke="#455ce9" stroke-width="3.5"/><g fill="#455ce9"><circle cx="219.2" cy="303" r="5.5"/><circle cx="300.8" cy="303" r="5.5"/></g><g fill="currentColor" font-size="16" font-family="inherit"><text x="214" y="331">2</text><text x="296" y="331">3</text><text x="490" y="308">x</text><text x="45" y="24">y</text></g></svg></div><figcaption>График той же функции. Пересечения с осью x совпадают с найденными корнями: 2 и 3. Вершина параболы — (2,5; −0,25).</figcaption></figure>
+      </section>
+    </div>
+    <section id="practice" class="lesson-practice" aria-labelledby="practice-title">
+      <h2 id="practice-title">Теперь попробуйте сами</h2>
+      <p>Та же идея, другие числа. Сделайте первый шаг самостоятельно.</p>
+      <p class="lesson-practice-formula" data-practice-equation>x² − 7x + 12 = 0</p>
+      <form class="lesson-practice-form" data-practice-form hidden novalidate>
+        <label for="practice-answer" data-practice-label>Два корня уравнения</label>
+        <input id="practice-answer" name="answer" type="text" inputmode="text" autocomplete="off" aria-describedby="practice-help practice-status">
+        <p id="practice-help" class="lesson-practice-help" data-practice-help>Введите два числа через пробел, например 1 2. Порядок не важен.</p>
+        <button type="submit">Проверить ответ</button>
+        <p id="practice-status" class="lesson-practice-status" role="status" aria-live="polite" aria-atomic="true" data-practice-status></p>
+      </form>
+      <p class="lesson-example-note" data-practice-nojs>Можно решить задачу на бумаге и сравнить ответ с решением ниже. Интерактивная проверка доступна при включённом JavaScript.</p>
+      <details class="lesson-solution"><summary>Посмотреть решение</summary><p data-practice-solution>3 + 4 = 7, 3 × 4 = 12. Значит, (x − 3)(x − 4) = 0 и x = 3 или x = 4. Оба значения обращают исходное выражение в ноль.</p></details>
+    </section>
+    <nav class="lesson-next" aria-label="Следующий учебный разбор">
+      <a class="lesson-next-link" href="/lesson.html?topic=linear" data-next-lesson data-transition aria-labelledby="next-lesson-label next-lesson-title">
+        <span class="lesson-next-copy"><span class="lesson-next-label" id="next-lesson-label">Следующий разбор</span><span class="lesson-next-title" id="next-lesson-title" data-next-title>Уравнение — это равновесие</span><span class="lesson-next-equation" data-next-equation>2x + 3 = 11</span></span>
+        <span class="circle-button lesson-next-arrow" data-magnetic aria-hidden="true"><span class="button-fill"></span><span class="button-label"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 26 26 6M6 6h20v20"/></svg></span></span>
+      </a>
+    </nav>
+    <section class="lesson-detail-contact"><h2>Хотите разобраться в похожей теме?</h2><a href="/#contact" data-transition>Обсудить похожие темы</a></section>
+  </main>
+  <footer class="lesson-page-footer"><span>Предпросмотр персонального сайта</span><span>Математика. По шагам.</span><span data-current-year>2026</span></footer>
+  <div class="transition-curtain" data-curtain hidden aria-hidden="true"></div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

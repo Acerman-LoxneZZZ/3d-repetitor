@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-23T21:34:06.369Z",
+  "checks": 110,
+  "results": [
+    {
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "layout": {
+        "headingOffset": 0,
+        "width": 360,
+        "rows": [
+          {
+            "firstCenter": 0,
+            "groupCenter": 336,
+            "left": 20,
+            "right": 1012
+          },
+          {
+            "firstCenter": 0,
+            "groupCenter": 336,
+            "left": 20,
+            "right": 1012
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "layout": {
+        "headingOffset": 0,
+        "width": 390,
+        "rows": [
+          {
+            "firstCenter": 0,
+            "groupCenter": 358,
+            "left": 24,
+            "right": 1082
+          },
+          {
+            "firstCenter": 0,
+            "groupCenter": 358,
+            "left": 24,
+            "right": 1082
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "layout": {
+        "headingOffset": 0,
+        "width": 768,
+        "rows": [
+          {
+            "firstCenter": 0,
+            "groupCenter": 496,
+            "left": 144,
+            "right": 1616
+          },
+          {
+            "firstCenter": 0,
+            "groupCenter": 496,
+            "left": 144,
+            "right": 1616
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "layout": {
+        "headingOffset": 0,
+        "width": 1024,
+        "rows": [
+          {
+            "firstCenter": 0,
+            "groupCenter": 496,
+            "left": 272,
+            "right": 1744
+          },
+          {
+            "firstCenter": 0,
+            "groupCenter": 496,
+            "left": 272,
+            "right": 1744
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "layout": {
+        "headingOffset": 0,
+        "width": 1440,
+        "rows": [
+          {
+            "firstCenter": -429.04168701171875,
+            "groupCenter": -1.057342529296875,
+            "left": 88.96612548828125,
+            "right": 1348.919189453125
+          },
+          {
+            "firstCenter": -426.94268798828125,
+            "groupCenter": 1.041717529296875,
+            "left": 91.06512451171875,
+            "right": 1351.018310546875
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "layout": {
+        "headingOffset": 0,
+        "width": 1920,
+        "rows": [
+          {
+            "firstCenter": -568.7505874633789,
+            "groupCenter": -0.7662239074707031,
+            "left": 119.2572250366211,
+            "right": 1799.2103271484375
+          },
+          {
+            "firstCenter": -567.2337875366211,
+            "groupCenter": 0.7505989074707031,
+            "left": 120.7740249633789,
+            "right": 1800.7271728515625
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "tested": [
+    "centering",
+    "filters",
+    "keyboard",
+    "carousel",
+    "focus dialog",
+    "reduced motion",
+    "red theme",
+    "next case",
+    "no-JS"
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "date": "2026-10-24",
+  "initialExpandedFindings": 42,
+  "initialStopUniqueFindings": 33,
+  "fixed": 38,
+  "waivedFalsePositives": 4,
+  "unresolved": 0,
+  "decisions": [
+    {
+      "id": 1,
+      "rule": "low-contrast",
+      "file": "index.html",
+      "finding": "1.1:1 (need 4.5:1) — text #e0e5ff on #eeeeee",
+      "decision": "fixed",
+      "reason": "Lesson caption now uses white on cobalt; print caption/footer use #1c1d20 on #eee, with a neutral print token palette."
+    },
+    {
+      "id": 2,
+      "rule": "low-contrast",
+      "file": "index.html",
+      "finding": "1.5:1 (need 4.5:1) — text #c1c1c5 on #eeeeee",
+      "decision": "fixed",
+      "reason": "Lesson caption now uses white on cobalt; print caption/footer use #1c1d20 on #eee, with a neutral print token palette."
+    },
+    {
+      "id": 3,
+      "rule": "undersized-ui-text",
+      "file": "index.html",
+      "finding": "9px functional text \"Репетитор по математике\" (below 11px floor)",
+      "decision": "fixed",
+      "reason": "All fixed 9/10/11px UI and content text declarations in main.css were raised to 12px."
+    },
+    {
+      "id": 4,
+      "rule": "undersized-ui-text",
+      "file": "index.html",
+      "finding": "10px functional text \"Предпросмотр\" (below 11px floor)",
+      "decision": "fixed",
+      "reason": "All fixed 9/10/11px UI and content text declarations in main.css were raised to 12px."
+    },
+    {
+      "id": 5,
+      "rule": "tiny-text",
+      "file": "index.html",
+      "finding": "10px body text",
+      "decision": "fixed",
+      "reason": "All fixed 9/10/11px UI and content text declarations in main.css were raised to 12px."
+    },
+    {
+      "id": 6,
+      "rule": "undersized-ui-text",
+      "file": "index.html",
+      "finding": "10px functional text \"Обсудитьзанятия\" (below 11px floor)",
+      "decision": "fixed",
+      "reason": "All fixed 9/10/11px UI and content text declarations in main.css were raised to 12px."
+    },
+    {
+      "id": 7,
+      "rule": "undersized-ui-text",
+      "file": "index.html",
+      "finding": "10px functional text \"Знакомство начинается здесь\" (below 11px floor)",
+      "decision": "fixed",
+      "reason": "All fixed 9/10/11px UI and content text declarations in main.css were raised to 12px."
+    },
+    {
+      "id": 8,
+      "rule": "undersized-ui-text",
+      "file": "index.html",
+      "finding": "10px functional text \"Посмотреть разбор\" (below 11px floor)",
+      "decision": "fixed",
+      "reason": "All fixed 9/10/11px UI and content text declarations in main.css were raised to 12px."
+    },
+    {
+      "id": 9,
+      "rule": "tiny-text",
+      "file": "index.html",
+      "finding": "10px body text",
+      "decision": "fixed",
+      "reason": "All fixed 9/10/11px UI and content text declarations in main.css were raised to 12px."
+    },
+    {
+      "id": 10,
+      "rule": "undersized-ui-text",
+      "file": "index.html",
+      "finding": "10px functional text \"Давайтепознакомимся\" (below 11px floor)",
+      "decision": "fixed",
+      "reason": "All fixed 9/10/11px UI and content text declarations in main.css were raised to 12px."
+    },
+    {
+      "id": 11,
+      "rule": "tiny-text",
+      "file": "index.html",
+      "finding": "10px body text",
+      "decision": "fixed",
+      "reason": "All fixed 9/10/11px UI and content text declarations in main.css were raised to 12px."
+    },
+    {
+      "id": 12,
+      "rule": "tiny-text",
+      "file": "index.html",
+      "finding": "11px body text",
+      "decision": "fixed",
+      "reason": "All fixed 9/10/11px UI and content text declarations in main.css were raised to 12px."
+    },
+    {
+      "id": 13,
+      "rule": "undersized-ui-text",
+      "file": "index.html",
+      "finding": "10px functional text \"Демонстрационный пример\" (below 11px floor)",
+      "decision": "fixed",
+      "reason": "All fixed 9/10/11px UI and content text declarations in main.css were raised to 12px."
+    },
+    {
+      "id": 14,
+      "rule": "tiny-text",
+      "file": "index.html",
+      "finding": "10px body text",
+      "decision": "fixed",
+      "reason": "All fixed 9/10/11px UI and content text declarations in main.css were raised to 12px."
+    },
+    {
+      "id": 15,
+      "rule": "extreme-negative-tracking",
+      "file": "index.html",
+      "finding": "letter-spacing: -0.21em — \"Пробуем самостоятельно\"",
+      "decision": "scoped_false_positive_ignore",
+      "reason": "Declared letter-spacing is -.025em for process h3 and -.04em for materials/conditions h2. The reported -.21/-.18em values are absent from the CSS."
+    },
+    {
+      "id": 16,
+      "rule": "extreme-negative-tracking",
+      "file": "index.html",
+      "finding": "letter-spacing: -0.21em — \"Увидеть связь.Найти решение.\"",
+      "decision": "scoped_false_positive_ignore",
+      "reason": "Declared letter-spacing is -.025em for process h3 and -.04em for materials/conditions h2. The reported -.21/-.18em values are absent from the CSS."
+    },
+    {
+      "id": 17,
+      "rule": "tiny-text",
+      "file": "index.html",
+      "finding": "10px body text",
+      "decision": "fixed",
+      "reason": "All fixed 9/10/11px UI and content text declarations in main.css were raised to 12px."
+    },
+    {
+      "id": 18,
+      "rule": "undersized-ui-text",
+      "file": "index.html",
+      "finding": "10px functional text \"График функции\" (below 11px floor)",
+      "decision": "fixed",
+      "reason": "All fixed 9/10/11px UI and content text declarations in main.css were raised to 12px."
+    },
+    {
+      "id": 19,
+      "rule": "undersized-ui-text",
+      "file": "index.html",
+      "finding": "10px functional text \"Квадратное уравнение\" (below 11px floor)",
+      "decision": "fixed",
+      "reason": "All fixed 9/10/11px UI and content text declarations in main.css were raised to 12px."
+    },
+    {
+      "id": 20,
+      "rule": "undersized-ui-text",
+      "file": "index.html",
+      "finding": "9px functional text \"Открыть\" (below 11px floor)",
+      "decision": "fixed",
+      "reason": "All fixed 9/10/11px UI and content text declarations in main.css were raised to 12px."
+    },
+    {
+      "id": 21,
+      "rule": "undersized-ui-text",
+      "file": "index.html",
+      "finding": "10px functional text \"От условия к ответу\" (below 11px floor)",
+      "decision": "fixed",
+      "reason": "All fixed 9/10/11px UI and content text declarations in main.css were raised to 12px."
+    },
+    {
+      "id": 22,
+      "rule": "undersized-ui-text",
+      "file": "index.html",
+      "finding": "10px functional text \"Вычесть 3. Разделить на 2.\" (below 11px floor)",
+      "decision": "fixed",
+      "reason": "All fixed 9/10/11px UI and content text declarations in main.css were raised to 12px."
+    },
+    {
+      "id": 23,
+      "rule": "undersized-ui-text",
+      "file": "index.html",
+      "finding": "10px functional text \"Линейное уравнение\" (below 11px floor)",
+      "decision": "fixed",
+      "reason": "All fixed 9/10/11px UI and content text declarations in main.css were raised to 12px."
+    },
+    {
+      "id": 24,
+      "rule": "undersized-ui-text",
+      "file": "index.html",
+      "finding": "9px functional text \"Открыть\" (below 11px floor)",
+      "decision": "fixed",
+      "reason": "All fixed 9/10/11px UI and content text declarations in main.css were raised to 12px."
+    },
+    {
+      "id": 25,
+      "rule": "undersized-ui-text",
+      "file": "index.html",
+      "finding": "10px functional text \"Увидеть геометрию\" (below 11px floor)",
+      "decision": "fixed",
+      "reason": "All fixed 9/10/11px UI and content text declarations in main.css were raised to 12px."
+    },
+    {
+      "id": 26,
+      "rule": "undersized-ui-text",
+      "file": "index.html",
+      "finding": "10px functional text \"Теорема Пифагора\" (below 11px floor)",
+      "decision": "fixed",
+      "reason": "All fixed 9/10/11px UI and content text declarations in main.css were raised to 12px."
+    },
+    {
+      "id": 27,
+      "rule": "undersized-ui-text",
+      "file": "index.html",
+      "finding": "9px functional text \"Открыть\" (below 11px floor)",
+      "decision": "fixed",
+      "reason": "All fixed 9/10/11px UI and content text declarations in main.css were raised to 12px."
+    },
+    {
+      "id": 28,
+      "rule": "undersized-ui-text",
+      "file": "index.html",
+      "finding": "10px functional text \"Идея решения\" (below 11px floor)",
+      "decision": "fixed",
+      "reason": "All fixed 9/10/11px UI and content text declarations in main.css were raised to 12px."
+    },
+    {
+      "id": 29,
+      "rule": "undersized-ui-text",
+      "file": "index.html",
+      "finding": "10px functional text \"Замечаем закономерность\" (below 11px floor)",
+      "decision": "fixed",
+      "reason": "All fixed 9/10/11px UI and content text declarations in main.css were raised to 12px."
+    },
+    {
+      "id": 30,
+      "rule": "undersized-ui-text",
+      "file": "index.html",
+      "finding": "9px functional text \"Открыть\" (below 11px floor)",
+      "decision": "fixed",
+      "reason": "All fixed 9/10/11px UI and content text declarations in main.css were raised to 12px."
+    },
+    {
+      "id": 31,
+      "rule": "undersized-ui-text",
+      "file": "index.html",
+      "finding": "10px functional text \"Теперь ваша очередь\" (below 11px floor)",
+      "decision": "fixed",
+      "reason": "All fixed 9/10/11px UI and content text declarations in main.css were raised to 12px."
+    },
+    {
+      "id": 32,
+      "rule": "undersized-ui-text",
+      "file": "index.html",
+      "finding": "10px functional text \"Знакомая идея. Новая задача.\" (below 11px floor)",
+      "decision": "fixed",
+      "reason": "All fixed 9/10/11px UI and content text declarations in main.css were raised to 12px."
+    },
+    {
+      "id": 33,
+      "rule": "undersized-ui-text",
+      "file": "index.html",
+      "finding": "10px functional text \"Проверяем понимание\" (below 11px floor)",
+      "decision": "fixed",
+      "reason": "All fixed 9/10/11px UI and content text declarations in main.css were raised to 12px."
+    },
+    {
+      "id": 34,
+      "rule": "undersized-ui-text",
+      "file": "index.html",
+      "finding": "9px functional text \"Попробовать\" (below 11px floor)",
+      "decision": "fixed",
+      "reason": "All fixed 9/10/11px UI and content text declarations in main.css were raised to 12px."
+    },
+    {
+      "id": 35,
+      "rule": "undersized-ui-text",
+      "file": "index.html",
+      "finding": "10px functional text \"Сохраняем равенство\" (below 11px floor)",
+      "decision": "fixed",
+      "reason": "All fixed 9/10/11px UI and content text declarations in main.css were raised to 12px."
+    },
+    {
+      "id": 36,
+      "rule": "undersized-ui-text",
+      "file": "index.html",
+      "finding": "10px functional text \"Каждый шаг имеет смысл\" (below 11px floor)",
+      "decision": "fixed",
+      "reason": "All fixed 9/10/11px UI and content text declarations in main.css were raised to 12px."
+    },
+    {
+      "id": 37,
+      "rule": "undersized-ui-text",
+      "file": "index.html",
+      "finding": "9px functional text \"Открыть\" (below 11px floor)",
+      "decision": "fixed",
+      "reason": "All fixed 9/10/11px UI and content text declarations in main.css were raised to 12px."
+    },
+    {
+      "id": 38,
+      "rule": "tiny-text",
+      "file": "index.html",
+      "finding": "10px body text",
+      "decision": "fixed",
+      "reason": "All fixed 9/10/11px UI and content text declarations in main.css were raised to 12px."
+    },
+    {
+      "id": 39,
+      "rule": "extreme-negative-tracking",
+      "file": "index.html",
+      "finding": "letter-spacing: -0.18em — \"Сначала —ваша задача.\"",
+      "decision": "scoped_false_positive_ignore",
+      "reason": "Declared letter-spacing is -.025em for process h3 and -.04em for materials/conditions h2. The reported -.21/-.18em values are absent from the CSS."
+    },
+    {
+      "id": 40,
+      "rule": "cramped-padding",
+      "file": "index.html",
+      "finding": "<div> \"contact-line\": children flush against bg on all sides (no inset)",
+      "decision": "scoped_false_positive_ignore",
+      "reason": "The one-pixel divider anchors an absolutely positioned circular button as specified in MASTER_PROMPT_TUTOR.md 7.11/M23; the label is inset inside the button."
+    },
+    {
+      "id": 41,
+      "rule": "undersized-ui-text",
+      "file": "index.html",
+      "finding": "9px functional text \"Предпросмотр персонального сайта\" (below 10px floor)",
+      "decision": "fixed",
+      "reason": "All fixed 9/10/11px UI and content text declarations in main.css were raised to 12px."
+    },
+    {
+      "id": 42,
+      "rule": "undersized-ui-text",
+      "file": "index.html",
+      "finding": "9px functional text \"Остановить движение\" (below 11px floor)",
+      "decision": "fixed",
+      "reason": "All fixed 9/10/11px UI and content text declarations in main.css were raised to 12px."
+    }
+  ]
+}

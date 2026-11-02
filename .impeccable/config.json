@@ -1,0 +1,26 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "extreme-negative-tracking",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-23T21:00:57.913Z",
+        "reason": "Agent verified styles/main.css: process headings use -.025em and materials/conditions headings use -.04em; no declaration below -.04em exists. Static analyzer reports -.21/-.18em by misresolving responsive typography. Scope limited to index.html; no global rule suppression."
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-23T21:00:58.015Z",
+        "reason": "Agent: MASTER_PROMPT_TUTOR.md 7.11 and M23 require a circular CTA centred on a 1px divider. contact-line is the divider mounting point, while the absolutely positioned button owns its readable inset. Adding padding to the divider would break the specified composition."
+      }
+    ]
+  }
+}
